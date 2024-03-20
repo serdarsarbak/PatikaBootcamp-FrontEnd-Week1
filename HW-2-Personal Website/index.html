@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:wght@200;300;400;500;600;700&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+<style>
+    .effect:hover {
+        color: #C59A6D;
+        font-size: 30px;
+        cursor: pointer;
+  
+}
+    .effect {
+        transition: font-size ease-in-out .4s;
+        transform: translateZ(0);
+        will-change: transform;
+
+}
+
+    .image:hover {
+        background-size: cover;
+    }
+       .image {
+        transition: background-size ease-in-out .4s;
+        transform: translateZ(0);
+        will-change: transform;
+
+}
+   
+    .image {
+	-webkit-filter: sepia(100%);
+	filter: sepia(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+    .image:hover  {
+	-webkit-filter: sepia(0);
+	filter: sepia(0);
+}
+  
+</style>
+<body style="background-image: url(https://images.unsplash.com/photo-1548890126-91461beb4bf1?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D); background-size:cover; pointer-events:painted; font-family:Space Grotesk">
+    <div style="line-height: 1.6; padding: 1em; margin: 1em; font-size: 1.3em; margin-left: 5em; ">
+        <h1 style="text-align: center">
+            Mehmet Serdar Şarbak
+        </h1>
+        <h2>
+            Hakkımda
+        </h2>
+        <p>
+            Merhaba, ben Serdar. Bitki yetiştirmeyi, satranç oynamayı seviyorum. Yıllardır piyano öğrenmeye çalışıyorum, henüz iki şarkı çalabiliyorum. Önümüzdeki bir yıl içerisinde Yann Tiersen'in bir şarkısını ezbere çalma hedefim var. 
+        </p>
+        <h2>
+            Sevdiğim Film, Dizi ve Kitaplar
+        </h2>
+            <div style=" list-style-type: none; padding: 0; margin: 0;">
+                <ol>
+                    <li>
+                        <span style="font-weight: bold;">Film</span>
+                         <ul>
+                        <li class="effect">Sprited Away</li>
+                        <li class="effect">Wall-E</li>
+                        <li class="effect"><a href="https://www.imdb.com/title/tt4729430/" target=”_blank”>Klaus</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <span style="font-weight: bold;">Dizi</span>
+                         <ul>
+                        <li class="effect">Friends</li>
+                        <li class="effect">Sherlock</li>
+                        <li class="effect">Fringe</li>
+                    </ul>
+                    </li>
+
+                    <li>
+                        <span style="font-weight: bold;">Kitap</span>
+                         <ul>
+                        <li class="effect"><a href="https://www.goodreads.com/book/show/68811.Momo" target=”_blank”>Momo</a></li>
+                        <li class="effect">Simyacı</li>
+                        <li class="effect">Doğunun Limanları</li>
+                    
+                    </ul>
+                    </li>
+                  
+                </ol>
+                <hr>
+                <div>
+                    <h3>En Sevdiğim Film: Howl's Moving Castle</h3>
+                    <img class="image" width=550px; src="https://miro.medium.com/v2/resize:fit:5400/1*X-hagm2jL0EwiYmmYLoMgQ.jpeg" alt="Howl's Moving Castle Pic">
+                
+                    <p>İngiliz yazar Diana Wynne Jones'un kitabından uyarlanmıştır.</p>
+                </div>
+                
+            </div>
+
+</body>
+</html>
